@@ -371,7 +371,7 @@
 	 */
 	function makeCanvas() {
 		tree = d3.layout.tree();
-		svg = d3.select(this.get(0)).append('svg:svg').attr('id','BokXml');
+		svg = d3.select(this.get(0)).append('svg:svg').attr('id','BokXml').attr('xmlns','http://www.w3.org/2000/svg');
 		vis = svg.append('svg:g')
 			.attr('transform','translate(10,10)');
 	}
